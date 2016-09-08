@@ -17,8 +17,36 @@ namespace Pluslife {
     public partial class PluslifePage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Entry etissue;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Entry ettype;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Entry etplace;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Entry etdate;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Entry ettime;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button btnOK;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button btnCancle;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(PluslifePage));
+            etissue = this.FindByName <global::Xamarin.Forms.Entry>("etissue");
+            ettype = this.FindByName <global::Xamarin.Forms.Entry>("ettype");
+            etplace = this.FindByName <global::Xamarin.Forms.Entry>("etplace");
+            etdate = this.FindByName <global::Xamarin.Forms.Entry>("etdate");
+            ettime = this.FindByName <global::Xamarin.Forms.Entry>("ettime");
+            btnOK = this.FindByName <global::Xamarin.Forms.Button>("btnOK");
+            btnCancle = this.FindByName <global::Xamarin.Forms.Button>("btnCancle");
         }
     }
 }

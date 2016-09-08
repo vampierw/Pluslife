@@ -1,12 +1,8 @@
-﻿<Properties StartupItem="iOS/Pluslife.iOS.csproj">
+﻿<Properties StartupItem="Droid/Pluslife.Droid.csproj">
   <MonoDevelop.Ide.ItemProperties.Pluslife.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.ADFCF38B-EF2B-4FDB-9373-06F81D1F40E4" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Resources/values/styles.xml">
-    <Files>
-      <File FileName="Droid/Resources/values/styles.xml" Line="2" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Pluslife.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.ItemProperties.Pluslife.Droid PreferredExecutionTarget="Android.ce0416046592dd3a02" />
 </Properties>
