@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Sdk>
-  <AndroidApiLevel>23</AndroidApiLevel>
-  <AndroidApiLevelName>23</AndroidApiLevelName>
+  <AndroidApiLevel>24</AndroidApiLevel>
+  <AndroidApiLevelName>24</AndroidApiLevelName>
   <AndroidNdkPath />
-  <AndroidSdkBuildToolsPath>/Users/lichliebedich/Library/Developer/Xamarin/android-sdk-macosx/build-tools/23.0.2</AndroidSdkBuildToolsPath>
-  <AndroidSdkBuildToolsBinPath>/Users/lichliebedich/Library/Developer/Xamarin/android-sdk-macosx/build-tools/23.0.2</AndroidSdkBuildToolsBinPath>
+  <AndroidSdkBuildToolsPath>/Users/lichliebedich/Library/Developer/Xamarin/android-sdk-macosx/build-tools/24.0.2</AndroidSdkBuildToolsPath>
+  <AndroidSdkBuildToolsBinPath>/Users/lichliebedich/Library/Developer/Xamarin/android-sdk-macosx/build-tools/24.0.2</AndroidSdkBuildToolsBinPath>
   <AndroidSdkPath>/Users/lichliebedich/Library/Developer/Xamarin/android-sdk-macosx</AndroidSdkPath>
   <JavaSdkPath>/usr</JavaSdkPath>
   <MonoAndroidBinPath>/Library/Frameworks/Xamarin.Android.framework/Versions/Current/bin</MonoAndroidBinPath>
@@ -13,7 +13,7 @@
     <ReferenceAssemblyPath>/Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0</ReferenceAssemblyPath>
   </ReferenceAssemblyPaths>
   <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
-  <ZipAlignPath>/Users/lichliebedich/Library/Developer/Xamarin/android-sdk-macosx/build-tools/23.0.2</ZipAlignPath>
+  <ZipAlignPath>/Users/lichliebedich/Library/Developer/Xamarin/android-sdk-macosx/build-tools/24.0.2</ZipAlignPath>
   <MonoAndroidIncludePath />
   <SupportedApiLevel>23</SupportedApiLevel>
   <AndroidSequencePointsMode>None</AndroidSequencePointsMode>
