@@ -8,7 +8,7 @@ namespace Pluslife
 		{
 			InitializeComponent();
 
-			MainPage = new PluslifePage();
+			MainPage = new NavigationPage(new PluslifePage());
 		}
 
 		protected override void OnStart()

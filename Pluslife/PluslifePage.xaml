@@ -1,46 +1,70 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
-		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-		xmlns:local="clr-namespace:Pluslife" 
-		x:Class="Pluslife.PluslifePage">
-		<ContentPage.Padding>
-		<OnPlatform x:TypeArguments="Thickness"
-				iOS="10,20,10,10"
-				Android="10,10,10,10"/>
-
+<ContentPage
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:local="clr-namespace:Pluslife"
+	x:Class="Pluslife.PluslifePage"
+	Title="issue">
+	<ContentPage.Padding>
+		<OnPlatform
+			x:TypeArguments="Thickness"
+			iOS="10,20,10,10"
+			Android="10,10,10,10" />
 	</ContentPage.Padding>
 	<StackLayout>
-		<Label Text="กรอกข้อมูล" 
-		VerticalOptions="Center" 
-		HorizontalOptions="Center" />
-
-		
-		<Label Text="หัวข้อ" 
-		VerticalOptions="Center" 
-		HorizontalOptions="Center" />
-		<Entry x:Name="etissue" Placeholder="ใส่หัวข้อ"/>
-
-		<Label Text="ประเภท" 
-		VerticalOptions="Center" 
-		HorizontalOptions="Center" />
-		<Entry x:Name="ettype" Placeholder="ใส่ประเภท"/>
-
-		<Label Text="สถานที" 
-		VerticalOptions="Center" 
-		HorizontalOptions="Center" />
-		<Entry x:Name="etplace" Placeholder="ใส่สถานที่"/>
-
-
-		<Label Text="วันที่" 
-		VerticalOptions="Center" 
-		HorizontalOptions="Center" />
-		<Entry x:Name="etdate" Placeholder="ใส่วันที่"/>
-
-		<Label Text="เวลา" 
-		VerticalOptions="Center" 
-		HorizontalOptions="Center" />
-		<Entry x:Name="ettime" Placeholder="เวลา"/>
-		<Button x:Name ="btnOK" Text="OK"/>
-		<Button x:Name ="btnCancle" Text="Cancle"/>
+		<Label
+			Text="ข้อมูลการเตือนความจำ"
+			VerticalOptions="Center"
+			HorizontalOptions="Center" />
+		<Label
+			Text="หัวข้อ : "
+			VerticalOptions="Center"
+			HorizontalOptions="Start" />
+		<Entry
+			x:Name="etissue"
+			Placeholder="ใส่หัวข้อ" />
+		<Label
+			x:Name="ettype"	
+			Text="ประเภท : "
+			VerticalOptions="Center"
+			HorizontalOptions="Center" />
+		<!--<Picker
+			x:Name="ettype" SelectedIndex ="myPickerSelectedIndexChanged"
+			HorizontalOptions="Fill" >
+		<Picker.Items>
+			<x:String>WORK</x:String>
+			<x:String>PERSONAL</x:String>
+			<x:String>BIRTHDAY</x:String>
+		</Picker.Items>
+		</Picker>-->
+		<!--		<Entry x:Name="ettype" Placeholder="ใส่ประเภท"/>-->
+		<Label
+			Text="สถานที : "
+			VerticalOptions="Center"
+			HorizontalOptions="Center" />
+		<Entry
+			x:Name="etplace"
+			Placeholder="ใส่สถานที่" />
+		<Label
+			Text="วันที่ : "
+			VerticalOptions="Center"
+			HorizontalOptions="Center" />
+		<Entry
+			x:Name="etdate"
+			Placeholder="ใส่วันที่" />
+		<Label
+			Text="เวลา : "
+			VerticalOptions="Center"
+			HorizontalOptions="Center" />
+		<Entry
+			x:Name="ettime"
+			Placeholder="เวลา" />
+		<Button
+			x:Name="btnOK"
+			Text="OK"
+			Clicked="Handle_Clicked" />
+		<Button
+			x:Name="btnCancle"
+			Text="Cancle" />
 	</StackLayout>
 </ContentPage>

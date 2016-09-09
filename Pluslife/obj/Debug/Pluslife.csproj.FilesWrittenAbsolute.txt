@@ -1,8 +1,10 @@
 /Users/lichliebedich/Projects/Pluslife/Pluslife/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
-/Users/lichliebedich/Projects/Pluslife/Pluslife/obj/Debug/Pluslife.App.xaml.g.cs
-/Users/lichliebedich/Projects/Pluslife/Pluslife/obj/Debug/Pluslife.PluslifePage.xaml.g.cs
 /Users/lichliebedich/Projects/Pluslife/Pluslife/obj/Debug/Pluslife.App.xaml
 /Users/lichliebedich/Projects/Pluslife/Pluslife/obj/Debug/Pluslife.PluslifePage.xaml
+/Users/lichliebedich/Projects/Pluslife/Pluslife/obj/Debug/Pluslife.PluslifePage2.xaml
+/Users/lichliebedich/Projects/Pluslife/Pluslife/obj/Debug/Pluslife.App.xaml.g.cs
+/Users/lichliebedich/Projects/Pluslife/Pluslife/obj/Debug/Pluslife.PluslifePage.xaml.g.cs
+/Users/lichliebedich/Projects/Pluslife/Pluslife/obj/Debug/Pluslife.PluslifePage2.xaml.g.cs
 /Users/lichliebedich/Projects/Pluslife/Pluslife/bin/Debug/Pluslife.dll.mdb
 /Users/lichliebedich/Projects/Pluslife/Pluslife/bin/Debug/Pluslife.dll
 /Users/lichliebedich/Projects/Pluslife/Pluslife/obj/Debug/Pluslife.dll

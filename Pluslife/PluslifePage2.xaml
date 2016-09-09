@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="Pluslife.PluslifePage2"
+	Title="Page2">
+	<ContentPage.Content>
+		<StackLayout>
+			<Label
+				x:Name="lblissue" />
+			<Label
+				x:Name="lbltype" />
+			<Label
+				x:Name="lblplace" />
+			<Label
+				x:Name="lbldate" />
+			<Label
+				x:Name="lbltime" />
+			<Button
+				x:Name="btnok"
+				Text="OK" />
+			<Button
+				x:Name="btncancel"
+				Text="Cencel" />
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

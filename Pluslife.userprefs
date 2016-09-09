@@ -1,17 +1,10 @@
-﻿<Properties StartupItem="Droid/Pluslife.Droid.csproj">
+﻿<Properties StartupItem="iOS/Pluslife.iOS.csproj">
   <MonoDevelop.Ide.ItemProperties.Pluslife.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.ADFCF38B-EF2B-4FDB-9373-06F81D1F40E4" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Pluslife/PluslifePage.xaml">
-    <Files>
-      <File FileName="Pluslife/PluslifePage.xaml" Line="27" Column="3" />
-      <File FileName="Pluslife/App.xaml" Line="1" Column="1" />
-      <File FileName="Droid/Resources/values/styles.xml" Line="2" Column="1" />
-      <File FileName="Pluslife/packages.config" Line="1" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Pluslife.Droid PreferredExecutionTarget="Android.ce0416046592dd3a02" />
+  <MonoDevelop.Ide.ItemProperties.Pluslife.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
 </Properties>

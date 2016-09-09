@@ -20,7 +20,7 @@ namespace Pluslife {
         private global::Xamarin.Forms.Entry etissue;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Entry ettype;
+        private global::Xamarin.Forms.Label ettype;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Entry etplace;
@@ -41,7 +41,7 @@ namespace Pluslife {
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(PluslifePage));
             etissue = this.FindByName <global::Xamarin.Forms.Entry>("etissue");
-            ettype = this.FindByName <global::Xamarin.Forms.Entry>("ettype");
+            ettype = this.FindByName <global::Xamarin.Forms.Label>("ettype");
             etplace = this.FindByName <global::Xamarin.Forms.Entry>("etplace");
             etdate = this.FindByName <global::Xamarin.Forms.Entry>("etdate");
             ettime = this.FindByName <global::Xamarin.Forms.Entry>("ettime");

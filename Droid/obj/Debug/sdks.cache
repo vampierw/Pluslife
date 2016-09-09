@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Sdk>
-  <AndroidApiLevel>24</AndroidApiLevel>
-  <AndroidApiLevelName>24</AndroidApiLevelName>
+  <AndroidApiLevel>23</AndroidApiLevel>
+  <AndroidApiLevelName>23</AndroidApiLevelName>
   <AndroidNdkPath />
   <AndroidSdkBuildToolsPath>/Users/lichliebedich/Library/Developer/Xamarin/android-sdk-macosx/build-tools/24.0.2</AndroidSdkBuildToolsPath>
   <AndroidSdkBuildToolsBinPath>/Users/lichliebedich/Library/Developer/Xamarin/android-sdk-macosx/build-tools/24.0.2</AndroidSdkBuildToolsBinPath>
